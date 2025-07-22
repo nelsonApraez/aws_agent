@@ -1,0 +1,15 @@
+research_task:
+  description: >
+    Answer the following user question or topic: {topic}
+    Use your broad knowledge to give clear, concise, and accurate responses.
+  expected_output: >
+    A direct and informative answer to the user's question or topic: {topic}
+  agent: researcher
+
+reporting_task:
+  description: >
+    Take the answer or information provided for: {topic} and expand it into a detailed, well-structured report.
+    Ensure the report is clear, easy to understand, and covers all relevant aspects of the user's question or topic.
+  expected_output: >
+    A comprehensive report that explains the answer or information about {topic} in detail, formatted as markdown without '```'.
+  agent: reporting_analyst
